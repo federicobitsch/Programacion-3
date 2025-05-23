@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #f0f8ff;
+}
+
+h1,h2,h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #003366;
+    font-family: "Roboto", sans-serif;
+}
+
+/*PRESENTACION SOBRE MI.*/
+
+.presentacion{
+    display: flex;
+    justify-content: start;
+    padding: 30px 30px 10px 10px;
+
+}
+
+.presentacion p{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.presentacion img{
+    margin: 10px;
+    width: 200px;
+}
+
+/*PROYECTOS - CURSOS*/
+.proyectos {
+    
+    padding: 30px;
+    margin: 10px;
+
+}
+
+p{
+    color: #333333;
+    font-weight: bold;
+}
+
+button{
+    font-size: 18px;
+    background-color: #0066cc;
+    color: #ffffff;
+}
+
+button:hover{
+    background-color: #005bb5;
+}
